@@ -8,6 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <div class="calculator">
+        <input type="text" id="input" disabled>
+        <div class="buttons">
+            <button id="block0" onclick="appendValue('0')">0</button>
+            <button id="block1" onclick="appendValue('1')">1</button>
+            <button id="block2" onclick="appendValue('2')">2</button>
+            <button id="block3" onclick="appendValue('3')">3</button>
+            <button id="block4" onclick="appendValue('4')">4</button>
+            <button id="block5" onclick="appendValue('5')">5</button>
+            <button id="block6" onclick="appendValue('6')">6</button>
+            <button id="block7" onclick="appendValue('7')">7</button>
+            <button id="block8" onclick="appendValue('8')">8</button>
+            <button id="block9" onclick="appendValue('9')">9</button>
+            <button id="plus" onclick="appendValue('+')">+</button>
+            <button id="minus" onclick="appendValue('-')">-</button>
+            <button id="multiply" onclick="appendValue('*')">*</button>
+            <button id="divide" onclick="appendValue('/')">/</button>
+            <button id="dot" onclick="appendValue('.')">.</button>
+            <button id="ans" onclick="calculateResult()">=</button>
+            <button id="clr" onclick="clearDisplay()">C</button>
+        </div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
